@@ -50,17 +50,21 @@ class UsersRepository {
 
   }
 
+  async delete(id) {
+    const records = await this.getAll();
+
+    const filteredRecords = records.filter(record => record.id !== id);
+
+    await this.writeAll(filteredRecords); 
+  }
+
 
 }
 
 const test = async () => {
   const repo = new UsersRepository('users.json');
 
-  const user = await repo.getOne('cce77b69'); 
-
-  const users = await repo.getAll();
-
-  console.log(users);
+  await repo.delete('cce77b69')
 };
 
 test();
