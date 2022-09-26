@@ -3,5 +3,15 @@
     "email": "test@test.com",
     "password": "pass",
     "id": "83db9057"
+  },
+  {
+    "email": "kitten@test.com",
+    "password": "c4e20e700e211af5aaf40e42d0bdb77e2cbda7c0c924687cb78f2a3345974853e2252d426f3c0439ed9cdfa7c6dfd5cefc0eec3a6d76a8d83c16e4795d6efdc9.ca0fde57e43b8517",
+    "id": "c7d5ec5b"
+  },
+  {
+    "email": "kitten1@test.com",
+    "password": "16524cc26fbd6613af749ee1fc328bfecf9d2bc257a62d871cd226d8b83b5dc2ad9597788820528c0111dfb202d151b2aac31aa8c7a38de177b358a5f268e022.d36aa1474b2e4e46",
+    "id": "a53a76a7"
   }
 ]
