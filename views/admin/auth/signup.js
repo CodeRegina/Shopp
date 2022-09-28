@@ -8,7 +8,7 @@ module.exports = ({ req }) => {
           <input name="passwordConfirmation" placeholder="password confirmation" />
           <button>Sign Up</button>
         </form>
-      </div>
+    
     `;
   };
 
