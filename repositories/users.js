@@ -105,5 +105,5 @@ class UsersRepository {
     }
   }
 }
-this.something
+
 module.exports = new UsersRepository('users.json');
